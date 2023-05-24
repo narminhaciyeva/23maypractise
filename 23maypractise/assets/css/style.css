@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+width: 100%;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 40px;
+margin-top:30px;
+
+
+
+}
+.col i{
+    padding-left: 40px;
+}
+.col{
+    padding-left: 30px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+
+}
+.list li{
+    display: inline-block;
+    padding: 30px;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+
+}
+.imp a{
+    color: rgb(197, 43, 43); 
+}
+.list li a:hover{
+    color:  rgb(197, 43, 43); ;
+}
+.nav-link:hover{
+    color:rgb(197, 43, 43);
+}
+.bg-image{
+    background-image: url(https://media.self.com/photos/5b7c654d37ff4e0e38e2eff4/2:1/w_1280,c_limit/woman-throwing-medicine-ball.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+box-shadow: 1px 1px 0.5px rgb(185, 140, 140);
+  
+}
+.sent1{
+    display: flex;
+  justify-content: center;
+  text-align: center;
+padding: 70px;
+}
+h1{
+    font-size: 60px;
+color: black;
+}
+
+.sent2 h5{
+    color: rgb(236, 219, 219);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin: -50px;
+}
+.page3 p{
+    font-size: 15px;
+    text-align: center;
+}
+.page3 h4{
+  text-align: center;
+  font-size: 40px;
+}
+.page3{
+    margin-top: 70px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.cols h5{
+text-align: center;
+
+}
+.cols p{
+    text-align: center;
+}
+.cols {
+    padding: 40px;
+}
+.cols img{
+display: flex;
+justify-content: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+ .cols{
+    background-color: white;
+    box-shadow: 0px 20px 60px 0px rgba(246, 33, 75, 0.3);
+    padding: 40px 30px 30px 30px;
+}
+
+/* .page4 p{
+    
+    background-color: #f6214b;
+    color: #fff;
+    padding: 10px 40px;
+    margin-left: 20px;
+    margin-top: -60px;
+    position: absolute;
+    display: flex;
+} */
+.page4 ul li {
+display: flex;
+justify-content: space-between;
+    display: inline-block;
+    
+}
+.lists span{
+    padding: 120px;
+    color: #f6214b;
+}
+.page4 a{
+    text-decoration: none;
+    color: #f6214b;
+}
+.rowss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
